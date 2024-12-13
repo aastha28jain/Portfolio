@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel='stylesheet' href='style.css'>
+    <script src="https://kit.fontawesome.com/6f30af3788.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!--------------- HOME ------------------>
+    <div id="header">
+        <div class="container">
+            <nav id="sidemenu">    
+                <!-- <img src="Images/myimg.jpg" class="logo">     -->
+                <a href="#" class="logo"><span>P</span>ortfolio</a>
+                <!-- <i class="bx bx-menu" id="menu-icon"></i> -->
+
+                <ul>    
+                    <li><a href="#header">Home</a></li>    
+                    <li><a href="#about">About</a></li>    
+                    <li><a href="#services">Services</a></li>    
+                    <li><a href="#projects">Projects</a></li>    
+                    <li><a href="#contact">Contact</a></li>    
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>  
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>  
+            </nav> 
+            <div class ="front" id="front">
+                <div class="header-text">
+                    <p>Software Developer</p>
+                    <h1>Hi! It's me,<br> <span>Aastha</span> Jain</h1>
+                </div>
+                <div class="header-img">
+                    <img src="Images/Portfolio.jpg" alt="Image" height="388px">
+                </div>
+            </div>
+        </div>    
+    </div>
+
+<!------------ ABOUT ------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/about.png">
+            </div>
+            <div class="about-col-2">
+                <h1>About Me</h1>
+                <p>Aspiring Software Developer with strong foundation in C++, Data Structures, Figma and a deep understanding of software 
+                    engineering principles. Experienced in developing and debugging applications. Excellent problem-solving skills, with a strong 
+                    passion for learning new technologies and frameworks. Eager to contribute innovative solutions to real-world challenges 
+                    and grow in a fast-paced, dynamic software development role.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')"> Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>DSA</span><br>Problem solving skills</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024</span><br>Frontend Web Developer at SoftMind Technologies.(90 days internship)</li>
+                        <li><span>2023</span><br>Web Developer at Impact IT Services.(45 days internship)</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2025</span><br>BTech in IT from RTU, Kota (CGPA : 9.19).</li>
+                        <li><span>2021</span><br>XIIth from D.A.V Public School, Kota (94%).</li>
+                        <li><span>2019</span><br>Xth from D.A.V Public School, Kota (93.2%).</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------ SERVICES ------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-lists">
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>"Transforming ideas into intuitive, user-centric designs, I offer professional UI/UX 
+                    development services. From wireframes to polished interfaces, I craft visually 
+                    appealing, responsive, and accessible designs. Leveraging tools like Figma and Canva,
+                    I ensure seamless functionality and exceptional user experiences.".</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>"Delivering modern, responsive, and optimized websites, I offer expert frontend web 
+                    development services. With skills in HTML, CSS, and JavaScript, I build visually 
+                    appealing and functional interfaces. My focus is on clean code, performance, and 
+                    creating seamless user experiences across devices and browsers."</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-computer"></i>
+                <h2>DSA</h2>
+                <p>"I offer expertise in Data Structures and Algorithms (DSA) to optimize software 
+                    performance and solve complex problems efficiently. With a strong foundation in 
+                    coding and algorithmic thinking, I design solutions that enhance functionality, 
+                    scalability, and speed. My approach ensures reliable, high-performing systems for 
+                    real-world applications.".</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------ Languages ------------>
+<div id="lang">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="skill-list">
+            <div class="skill">
+                <img src="Images/skill1.png">
+                <div class="skill-text skill1">
+                    <h3>C++</h3> 
+                </div>
+            </div>
+            <div class="skill">
+                <img src="Images/skill2.webp">
+                <div class="skill-text skill2">
+                    <h3>DSA</h3> 
+                </div>
+            </div>
+            <div class="skill">
+                <img src="Images/skill3.png">
+                <div class="skill-text skill3">
+                    <h3>FIGMA</h3> 
+                </div>
+            </div>
+            <div class="skill">
+                <img src="Images/skill4.png">
+                <div class="skill-text skill4">
+                    <h3>PYTHON</h3> 
+                </div>
+            </div>
+            <div class="skill">
+                <img src="Images/skill5.webp">
+                <div class="skill-text skill5">
+                    <h3>MS EXCEL</h3> 
+                </div>
+            </div>
+            <div class="skill">
+                <img src="Images/skill6.png">
+                <div class="skill-text skill6">
+                    <h3>HTML</h3> 
+                </div>
+            </div>
+            <div class="skill">
+                <img src="Images/skill7.webp">
+                <div class="skill-text skill7">
+                    <h3>CSS</h3> 
+                </div>
+            </div>
+            <div class="skill">
+                <img src="Images/skill8.png">
+                <div class="skill-text skill8">
+                    <h3>JAVASCRIPT</h3> 
+                </div>
+            </div>
+            <div class="skill">
+                <img src="Images/skill9.png">
+                <div class="skill-text skill9">
+                    <h3>BOOTSTRAP</h3> 
+                </div>
+            </div>
+            <div class="skill">
+                <img src="Images/skill10.jpg">
+                <div class="skill-text skill10">
+                    <h3>CANVA</h3> 
+                </div>
+            </div>
+    </div>
+</div>
+<br><br>
+
+
+
+<!------------ PORTFOLIO ------------>
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/project1.png">
+                <div class="layer">
+                    <h3>TRAVEL-DOOR</h3>
+                    <p> A travelling service providor website built using HTML, CSS and JS. To view the project you can click the below icon to view my work.</p>
+                    <a href="https://aastha28jain.github.io/Travel-Door/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/project2.png">
+                <div class="layer">
+                    <h3>BEAUTY SALON</h3>
+                    <p>This is a E-Salon website where you can view services with prices and book an appointment. To view the project you can click the below icon to view my work.</p>
+                    <a href="https://github.com/aastha28jain/Beauty-Salon.git"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/project5.png">
+                <div class="layer">
+                    <h3>MASTERY</h3>
+                    <p>This web page is a landing page for a Coding Website called Mastery, this is built using HTML and CSS. To view the project you can click the below icon to view my work.</p>
+                    <a href="https://aastha28jain.github.io/Mastery/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/project3.png">
+                <div class="layer">
+                    <h3>TO-DO Webpage</h3>
+                    <p>This webpage is a To-Do list where you can add or delete your activities according to your need. This is built using Javascript, HTML and CSS. To view the project you can click the below icon to view my work.</p>
+                    <a href="https://aastha28jain.github.io/To-Do-list/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/project4.png">
+                <div class="layer">
+                    <h3>Coffee-Shop</h3>
+                    <p>This was my first landing web page of a Coffee Site, built using HTML and CSS. To view the project you can click the below icon to view my work.</p>
+                    <a href="https://aastha28jain.github.io/Coffee-Landing-page/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+    </div>
+</div>
+<br><br>
+
+<!------------ CONTACT ------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>aasthajain2810@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91-94620 25992</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/aastha28jain"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/aastha28jain"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Images/CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Aastha Jain! <i class="fa-regular fa-face-smile"></i></p>
+    </div>
+</div>
+
+<script src="main.js"></script>
+
+    
+</body>
+</html>
